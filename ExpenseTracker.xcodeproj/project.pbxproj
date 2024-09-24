@@ -17,13 +17,21 @@
 		0412125D2C983108001333F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412125C2C983108001333F1 /* HomeView.swift */; };
 		041212602C983247001333F1 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412125F2C983247001333F1 /* AppButton.swift */; };
 		041212622C983D1E001333F1 /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212612C983D1E001333F1 /* AppCard.swift */; };
-		041212642C984179001333F1 /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212632C984179001333F1 /* IncomeView.swift */; };
 		041212662C984192001333F1 /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212652C984192001333F1 /* ExpenseView.swift */; };
 		041212682C9846F6001333F1 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212672C9846F6001333F1 /* AddTransactionView.swift */; };
 		0412126A2C98554C001333F1 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212692C98554C001333F1 /* TransactionModel.swift */; };
 		0412126C2C9855A8001333F1 /* AppCardTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412126B2C9855A8001333F1 /* AppCardTransaction.swift */; };
 		0412126F2C987489001333F1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0412126E2C987489001333F1 /* SplashScreenView.swift */; };
 		041212722C98ABEA001333F1 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212712C98ABE9001333F1 /* GoalsView.swift */; };
+		041212792C9A7D20001333F1 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041212782C9A7D20001333F1 /* OnBoardingView.swift */; };
+		0412127B2C9A83B0001333F1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0412127A2C9A83B0001333F1 /* Lottie */; };
+		0412127D2C9A8406001333F1 /* 503020.json in Resources */ = {isa = PBXBuildFile; fileRef = 0412127C2C9A8406001333F1 /* 503020.json */; };
+		0412128C2C9A9ACC001333F1 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 0412128B2C9A9ACC001333F1 /* list.json */; };
+		043B482F2C9D0C350096AD12 /* OnBoardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B482E2C9D0C350096AD12 /* OnBoardingModel.swift */; };
+		043B48312C9E69FF0096AD12 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B48302C9E69FF0096AD12 /* TransactionViewModel.swift */; };
+		043B48332C9EB2C20096AD12 /* SavingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B48322C9EB2C20096AD12 /* SavingsModel.swift */; };
+		043B48352C9F1F570096AD12 /* BalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B48342C9F1F570096AD12 /* BalanceModel.swift */; };
+		043B48372CA04E990096AD12 /* SavingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B48362CA04E990096AD12 /* SavingViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +65,20 @@
 		0412125C2C983108001333F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0412125F2C983247001333F1 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		041212612C983D1E001333F1 /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
-		041212632C984179001333F1 /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
 		041212652C984192001333F1 /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
 		041212672C9846F6001333F1 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 		041212692C98554C001333F1 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		0412126B2C9855A8001333F1 /* AppCardTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCardTransaction.swift; sourceTree = "<group>"; };
 		0412126E2C987489001333F1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		041212712C98ABE9001333F1 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		041212782C9A7D20001333F1 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		0412127C2C9A8406001333F1 /* 503020.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 503020.json; sourceTree = "<group>"; };
+		0412128B2C9A9ACC001333F1 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		043B482E2C9D0C350096AD12 /* OnBoardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingModel.swift; sourceTree = "<group>"; };
+		043B48302C9E69FF0096AD12 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		043B48322C9EB2C20096AD12 /* SavingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsModel.swift; sourceTree = "<group>"; };
+		043B48342C9F1F570096AD12 /* BalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceModel.swift; sourceTree = "<group>"; };
+		043B48362CA04E990096AD12 /* SavingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0412127B2C9A83B0001333F1 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,13 +130,15 @@
 		0412122E2C983076001333F1 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
-				0412125E2C983219001333F1 /* Helper */,
+				0412125E2C983219001333F1 /* Components */,
 				0412125B2C98308E001333F1 /* ViewModel */,
 				0412125A2C983089001333F1 /* Model */,
 				041212592C983082001333F1 /* View */,
 				0412122F2C983076001333F1 /* ExpenseTrackerApp.swift */,
 				041212312C983076001333F1 /* ContentView.swift */,
 				041212332C983076001333F1 /* Assets.xcassets */,
+				0412128B2C9A9ACC001333F1 /* list.json */,
+				0412127C2C9A8406001333F1 /* 503020.json */,
 				041212352C983076001333F1 /* Preview Content */,
 			);
 			path = ExpenseTracker;
@@ -155,11 +173,11 @@
 			isa = PBXGroup;
 			children = (
 				0412125C2C983108001333F1 /* HomeView.swift */,
-				041212632C984179001333F1 /* IncomeView.swift */,
 				041212652C984192001333F1 /* ExpenseView.swift */,
 				041212672C9846F6001333F1 /* AddTransactionView.swift */,
 				0412126E2C987489001333F1 /* SplashScreenView.swift */,
 				041212712C98ABE9001333F1 /* GoalsView.swift */,
+				041212782C9A7D20001333F1 /* OnBoardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				041212692C98554C001333F1 /* TransactionModel.swift */,
+				043B482E2C9D0C350096AD12 /* OnBoardingModel.swift */,
+				043B48322C9EB2C20096AD12 /* SavingsModel.swift */,
+				043B48342C9F1F570096AD12 /* BalanceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,18 +196,20 @@
 		0412125B2C98308E001333F1 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				043B48302C9E69FF0096AD12 /* TransactionViewModel.swift */,
+				043B48362CA04E990096AD12 /* SavingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		0412125E2C983219001333F1 /* Helper */ = {
+		0412125E2C983219001333F1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
 				0412125F2C983247001333F1 /* AppButton.swift */,
 				041212612C983D1E001333F1 /* AppCard.swift */,
 				0412126B2C9855A8001333F1 /* AppCardTransaction.swift */,
 			);
-			path = Helper;
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +228,9 @@
 			dependencies = (
 			);
 			name = ExpenseTracker;
+			packageProductDependencies = (
+				0412127A2C9A83B0001333F1 /* Lottie */,
+			);
 			productName = ExpenseTracker;
 			productReference = 0412122C2C983076001333F1 /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -277,6 +303,9 @@
 				Base,
 			);
 			mainGroup = 041212232C983076001333F1;
+			packageReferences = (
+				041212772C9A77B8001333F1 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 0412122D2C983076001333F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -295,6 +324,8 @@
 			files = (
 				041212372C983076001333F1 /* Preview Assets.xcassets in Resources */,
 				041212342C983076001333F1 /* Assets.xcassets in Resources */,
+				0412128C2C9A9ACC001333F1 /* list.json in Resources */,
+				0412127D2C9A8406001333F1 /* 503020.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +351,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0412126A2C98554C001333F1 /* TransactionModel.swift in Sources */,
+				043B482F2C9D0C350096AD12 /* OnBoardingModel.swift in Sources */,
 				0412125D2C983108001333F1 /* HomeView.swift in Sources */,
-				041212642C984179001333F1 /* IncomeView.swift in Sources */,
 				041212722C98ABEA001333F1 /* GoalsView.swift in Sources */,
+				043B48352C9F1F570096AD12 /* BalanceModel.swift in Sources */,
 				041212622C983D1E001333F1 /* AppCard.swift in Sources */,
 				0412126F2C987489001333F1 /* SplashScreenView.swift in Sources */,
 				041212662C984192001333F1 /* ExpenseView.swift in Sources */,
+				043B48372CA04E990096AD12 /* SavingViewModel.swift in Sources */,
 				041212322C983076001333F1 /* ContentView.swift in Sources */,
 				0412126C2C9855A8001333F1 /* AppCardTransaction.swift in Sources */,
+				043B48332C9EB2C20096AD12 /* SavingsModel.swift in Sources */,
 				041212302C983076001333F1 /* ExpenseTrackerApp.swift in Sources */,
 				041212682C9846F6001333F1 /* AddTransactionView.swift in Sources */,
 				041212602C983247001333F1 /* AppButton.swift in Sources */,
+				041212792C9A7D20001333F1 /* OnBoardingView.swift in Sources */,
+				043B48312C9E69FF0096AD12 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +696,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		041212772C9A77B8001333F1 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0412127A2C9A83B0001333F1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 041212772C9A77B8001333F1 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 041212242C983076001333F1 /* Project object */;
 }

@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct OnBoardingModel{
+    var filename: String
+    var title: String
+    var description: String
+}

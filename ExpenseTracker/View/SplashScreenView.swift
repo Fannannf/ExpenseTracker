@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SplashScreenView: View {
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
     @State var isActive: Bool = false
     @State private var fadeIn = false
     var body: some View {
@@ -15,7 +16,11 @@ struct SplashScreenView: View {
             Color("appColor")
                 .ignoresSafeArea()
             if self.isActive{
-                HomeView()
+                if isOnboarding {
+                    OnBoardingView()
+                } else {
+                    HomeView()
+                }
             }else{
                 Text("Monthy")
                     .foregroundStyle(.white)

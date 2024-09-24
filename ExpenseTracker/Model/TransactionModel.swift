@@ -6,17 +6,23 @@
 //
 
 import Foundation
+import SwiftData
 
-enum TransactionStatus {
-    case income
-    case expense
-}
-
-
-struct TransactionModel: Identifiable {
-    let id = UUID()
+@Model
+class TransactionModel: Identifiable {
+    @Attribute(.unique) var id: UUID
     let title: String
-    let date: String
-    let amount: String
-    let status: TransactionStatus
+    let categori: String
+    let date: Date
+    let amount: Int
+    let status: String
+    
+    init(title: String, categori: String, date: Date, amount: Int, status: String) {
+        self.id = UUID()
+        self.title = title
+        self.categori = categori
+        self.date = date
+        self.amount = amount
+        self.status = status
+    }
 }

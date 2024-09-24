@@ -25,25 +25,24 @@ struct AppCard: View {
             VStack(alignment: .leading, spacing: 8) {
                 Text(iconTitle)
                     .font(.title)
-                
                 HStack {
                     if let iconSub = iconSub, !iconSub.isEmpty {
                         Text(iconSub)
                     }
                     Text(subTitle)
                         .font(.system(size: 16, weight: .regular, design: .default))
-                        .foregroundStyle(Color("textColor"))
+                        .foregroundStyle(Color("textBlackColor"))
                 }
                 
                 Text("IDR \(money)")
                     .font(.system(size: 16, weight: .bold, design: .default))
-                    .foregroundStyle(Color("textColor"))
+                    .foregroundStyle(Color("textBlackColor"))
             }
             .padding()
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/,alignment: .leading)
         }
         .frame(width: 165, height: 135, alignment: .leading)
-        .background(Color.white)
+        .background(Color("cardColor"))
         .cornerRadius(12)
         .shadow(color: .black.opacity(0.12), radius: 40, y: 4)
 

@@ -6,13 +6,40 @@
 //
 
 import SwiftUI
+import Lottie
 
-struct AppAnimation: View {
+struct AppOnBoarding: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+//            Spacer()
+//            LottieView(animation: .named(filename))
+//                .configure({
+//                    lottieAnimation in lottieAnimation.contentMode = .scaleAspectFill
+//                })
+//                .playbackMode(.playing(.toProgress(1, loopMode: .loop)))
+//                .frame(width: 270, height: 270)
+//                .padding(.bottom, 15)
+//            Text(title)
+//                .font(.system(size: 24, weight: .bold, design: .default))
+//                .foregroundStyle(Color("textColor"))
+//                .padding(.bottom,15)
+//            Text(description)
+//                .padding(.horizontal,20)
+//                .font(.system(size: 16, weight: .regular, design: .default))
+//                .multilineTextAlignment(.center)
+//                .foregroundStyle(Color("textColor"))
+//            Spacer()
+//            Button{
+//                onPress()
+//            } label: {
+//                AppButton(title: titleButton, textColor: .white, backgroundColor: "appColor")
+//            }.padding(.bottom,50)
+//                .padding(.horizontal)
+        }
+        .padding()
     }
 }
 
 #Preview {
-    AppAnimation()
+    AppOnBoarding()
 }
