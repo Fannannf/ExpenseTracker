@@ -92,13 +92,13 @@ struct AddTransactionView: View {
                         if category == "" {
                             category = "Living"
                         }
-                        viewModel.addTransaction(title: title, category: category, transactionDate: transactionDate, amount: amount, status: "expense", modelContext: modelContext,balance: balance, savings: savings)
+                        viewModel.addTransaction(title: title, category: category, transactionDate: transactionDate, amount: amount, status: "expense",monthly: isMonthly, modelContext: modelContext,balance: balance, savings: savings)
                         self.isPresented = false
                     } else if transactionType == "Income" {
                         if category == "" {
                             category = "Salary"
                         }
-                        viewModel.addTransaction(title: title, category: category, transactionDate: transactionDate, amount: amount, status: "income", modelContext: modelContext,balance: balance, savings: savings)
+                        viewModel.addTransaction(title: title, category: category, transactionDate: transactionDate, amount: amount, status: "income",monthly: isMonthly, modelContext: modelContext,balance: balance, savings: savings)
                         self.isPresented = false
                     }
                 }label: {
@@ -113,6 +113,6 @@ struct AddTransactionView: View {
     }
 }
 
-//#Preview {
-//    AddTransactionView(isPresented: .constant(true), transactionType: .constant("expense"))
-//}
+#Preview {
+    AddTransactionView(isPresented: .constant(true), transactionType: .constant("expense"))
+}

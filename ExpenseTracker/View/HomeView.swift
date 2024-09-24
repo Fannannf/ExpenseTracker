@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import TipKit
 
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
@@ -30,6 +31,8 @@ struct HomeView: View {
         return formatter
     }
     
+    var tooltips = Tooltips()
+    
     var body: some View {
         NavigationStack {
             Spacer()
@@ -42,6 +45,9 @@ struct HomeView: View {
                 }
                 .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
                 .padding(.horizontal)
+                
+                TipView(tooltips, arrowEdge: .top)
+                    .frame(width: 300)
             }else{
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Balance 50%")

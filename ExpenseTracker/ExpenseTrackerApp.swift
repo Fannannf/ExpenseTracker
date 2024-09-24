@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import TipKit
 
 @main
 struct ExpenseTrackerApp: App {
@@ -14,5 +15,9 @@ struct ExpenseTrackerApp: App {
             ContentView()
         }
         .modelContainer(for: [TransactionModel.self,BalanceModel.self,SavingsModel.self])
+    }
+    
+    init() {
+        try? Tips.configure()
     }
 }

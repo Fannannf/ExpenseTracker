@@ -37,7 +37,7 @@ class TransactionViewModel: ObservableObject {
         return totalExpense
     }
 
-    func addTransaction(title: String, category: String, transactionDate: Date, amount: Int64, status: String, modelContext: ModelContext, balance: [BalanceModel], savings: [SavingsModel]) {
+    func addTransaction(title: String, category: String, transactionDate: Date, amount: Int64, status: String,monthly: Bool, modelContext: ModelContext, balance: [BalanceModel], savings: [SavingsModel]) {
         fetchIncomeTransactions(modelContext: modelContext)
         var currentBalance = balance.first?.amount ?? 0
         var currentSavings = balance.first?.savings ?? 0
@@ -60,7 +60,7 @@ class TransactionViewModel: ObservableObject {
                 currentBalance -= Int64(amount)
                 balance.first?.amount = currentBalance
                 balance.first?.date_logged = transactionDate
-                modelContext.insert(TransactionModel(title: title, categori: category, date: transactionDate, amount: Int(amount), status: status))
+                modelContext.insert(TransactionModel(title: title, categori: category, date: transactionDate, amount: Int(amount), status: status, monthly: monthly))
                 try? modelContext.save()
             }
         } else if status == "income" {
@@ -85,9 +85,7 @@ class TransactionViewModel: ObservableObject {
                 balance.first?.goals = currentGoals
                 balance.first?.date_logged = transactionDate
             }
-            
-            
-            
+        
             if savings.isEmpty {
                 let savings = Int(Double(amount) * 0.20)
                 let initialSavings = SavingsModel(date: Date(), amount: savings)
@@ -98,7 +96,7 @@ class TransactionViewModel: ObservableObject {
                 modelContext.insert(SavingsModel(date: transactionDate, amount: savingsAmount))
             }
             
-            modelContext.insert(TransactionModel(title: title, categori: category, date: transactionDate, amount: Int(amount), status: status))
+            modelContext.insert(TransactionModel(title: title, categori: category, date: transactionDate, amount: Int(amount), status: status, monthly: monthly))
             try? modelContext.save()
         } else {
             titleAlertMessage = "Unknown Error"
